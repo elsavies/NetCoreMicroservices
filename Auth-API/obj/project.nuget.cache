@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E/ZJdEDcj6cWwVzpst9H3pdSIuHh0OeKJdgKCWrzWwf98veMeZXkjbnfVm5GpESDLP4Y+4mqsEaB7KmZhtR+wg==",
+  "dgSpecHash": "uNMl6IJFrAYAIyiX1btG1B6f8dCo0czeFVIXPzAHDG+W+minMkkCaOx2T75LRAYEQ2Y9Enq1+tzOtdhlTqadLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Elsav\\Documents\\Visual Studio 2019\\Projects\\MyFirstMicroService\\Auth-API\\Auth-API.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Elsav\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\Elsav\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Elsav\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",

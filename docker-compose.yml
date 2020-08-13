@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  auth-api:
+    image: ${DOCKER_REGISTRY-}authapi
+    build:
+      context: .
+      args:
+        - ASPNETCORE_ENVIRONMENT=Debug
+      dockerfile: Auth-API/Dockerfile

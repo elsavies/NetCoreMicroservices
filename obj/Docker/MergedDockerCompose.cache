@@ -1,0 +1,17 @@
+services:
+  auth-api:
+    build:
+      args:
+        ASPNETCORE_ENVIRONMENT: Debug
+      context: C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService
+      dockerfile: Auth-API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: authapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /c/Users/Elsav/AppData/Roaming/ASP.NET/Https:/root/.aspnet/https:ro
+version: '3.4'

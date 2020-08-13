@@ -162,9 +162,6 @@ C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-AP
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.csprojAssemblyReference.cache
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.AssemblyInfoInputs.cache
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.AssemblyInfo.cs
-C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.csproj.CoreCompileInputs.cache
-C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.RazorTargetAssemblyInfo.cache
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.csproj.CopyComplete
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\staticwebassets\Auth-API.StaticWebAssets.Manifest.cache
@@ -172,3 +169,6 @@ C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-AP
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.dll
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.pdb
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.genruntimeconfig.cache
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.csproj.CoreCompileInputs.cache
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-API\obj\Debug\netcoreapp3.1\Auth-API.MvcApplicationPartsAssemblyInfo.cache
