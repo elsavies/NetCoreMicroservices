@@ -1,0 +1,12 @@
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\bin\Stage\netcoreapp3.1\Auth-Data.deps.json
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\bin\Stage\netcoreapp3.1\Auth-Data.runtimeconfig.json
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\bin\Stage\netcoreapp3.1\Auth-Data.runtimeconfig.dev.json
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\bin\Stage\netcoreapp3.1\Auth-Data.dll
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\bin\Stage\netcoreapp3.1\Auth-Data.pdb
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.csprojAssemblyReference.cache
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.AssemblyInfoInputs.cache
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.AssemblyInfo.cs
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.csproj.CoreCompileInputs.cache
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.dll
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.pdb
+C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Stage\netcoreapp3.1\Auth-Data.genruntimeconfig.cache

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Auth_Data</RootNamespace>
+    <Configurations>Debug;Release;Stage</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

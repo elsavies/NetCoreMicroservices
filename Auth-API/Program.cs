@@ -1,11 +1,8 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace Auth_API
 {
@@ -18,6 +15,16 @@ namespace Auth_API
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                        config.SetBasePath(Directory.GetCurrentDirectory())
+                       .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                       .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+                       .AddJsonFile($"appsettings.overrides.json", optional: true, reloadOnChange: true)
+                       .AddEnvironmentVariables();
+
+                        Console.WriteLine("Env: " + hostingContext.HostingEnvironment.EnvironmentName);
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

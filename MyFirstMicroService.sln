@@ -11,24 +11,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{A56F6AE2-C
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{07331498-7E61-4474-A224-30FAFEC5F77B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth-Test", "Auth-Test\Auth-Test.csproj", "{AE81CA0F-7178-4D8E-9E53-7628A22A395F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Stage|Any CPU = Stage|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6}.Stage|Any CPU.Build.0 = Stage|Any CPU
 		{88938325-9DA8-49CE-9766-2761B0B143E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{88938325-9DA8-49CE-9766-2761B0B143E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88938325-9DA8-49CE-9766-2761B0B143E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88938325-9DA8-49CE-9766-2761B0B143E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88938325-9DA8-49CE-9766-2761B0B143E2}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{88938325-9DA8-49CE-9766-2761B0B143E2}.Stage|Any CPU.Build.0 = Stage|Any CPU
 		{07331498-7E61-4474-A224-30FAFEC5F77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07331498-7E61-4474-A224-30FAFEC5F77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07331498-7E61-4474-A224-30FAFEC5F77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07331498-7E61-4474-A224-30FAFEC5F77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07331498-7E61-4474-A224-30FAFEC5F77B}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{07331498-7E61-4474-A224-30FAFEC5F77B}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F}.Stage|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F}.Stage|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +51,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{66B52F67-0093-45BE-A0F3-3D7F7909D6F6} = {A56F6AE2-CEA1-4DB0-982D-157B31A1DEDC}
 		{88938325-9DA8-49CE-9766-2761B0B143E2} = {A56F6AE2-CEA1-4DB0-982D-157B31A1DEDC}
+		{AE81CA0F-7178-4D8E-9E53-7628A22A395F} = {A56F6AE2-CEA1-4DB0-982D-157B31A1DEDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEF6B7D5-4B55-4C2E-B960-9428F08E50CF}

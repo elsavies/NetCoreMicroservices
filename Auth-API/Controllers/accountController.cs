@@ -9,7 +9,7 @@ using Auth_API.Models.Request;
 using Auth_API.Contracts;
 using Auth_API.Models.Results;
 
-namespace Auth_Service.Controllers
+namespace Auth_API.Controllers
 {
     [Route("[Controller]")]
     [ApiController]

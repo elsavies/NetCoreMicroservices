@@ -21,3 +21,8 @@ C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Da
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Debug\netcoreapp3.1\Auth-Data.dll
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Debug\netcoreapp3.1\Auth-Data.pdb
 C:\Users\Elsav\Documents\Visual Studio 2019\Projects\MyFirstMicroService\Auth-Data\obj\Debug\netcoreapp3.1\Auth-Data.genruntimeconfig.cache
+C:\tests\Auth-Data.deps.json
+C:\tests\Auth-Data.runtimeconfig.json
+C:\tests\Auth-Data.runtimeconfig.dev.json
+C:\tests\Auth-Data.dll
+C:\tests\Auth-Data.pdb
