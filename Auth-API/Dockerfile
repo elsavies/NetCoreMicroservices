@@ -28,10 +28,11 @@ COPY . .
 WORKDIR "/src/Auth-API"
 
 #Arg variable used with Docker Build Command with a default value
-ARG ASPNETCORE_ENVIRONMENT=Debug
+ARG ASPNETCORE_ENVIRONMENT_ARG=Debug
+ENV ASPNETCORE_ENVIRONMENT_ENV=$ASPNETCORE_ENVIRONMENT_ARG
 
 #Running the build command and stablishing the Compile mode and Output directory
-RUN dotnet build "Auth-API.csproj" -c $ASPNETCORE_ENVIRONMENT -o /app/build
+RUN dotnet build "Auth-API.csproj" -c $ASPNETCORE_ENVIRONMENT_ENV -o /app/build
 
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
@@ -44,10 +45,11 @@ RUN dotnet test "Auth-Test.csproj" --logger "trx;LogFileName=auth-api-tests.xml"
 FROM build AS publish
 
 #Arg variable used with Docker Build Command with a default value
-ARG ASPNETCORE_ENVIRONMENT=Debug
+ARG ASPNETCORE_ENVIRONMENT_ARG=Debug
+ENV ASPNETCORE_ENVIRONMENT_ENV=$ASPNETCORE_ENVIRONMENT_ARG
 
 #Running the publish command and stablishing the Compile mode and Output directory 
-RUN dotnet publish "Auth-API.csproj" -c $ASPNETCORE_ENVIRONMENT -o /app/publish
+RUN dotnet publish "Auth-API.csproj" -c $ASPNETCORE_ENVIRONMENT_ENV -o /app/publish
 
 #Using base image to create the final Layer
 FROM base AS final
